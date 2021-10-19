@@ -1,0 +1,22 @@
+// 对象的 key 为集合名称
+// key.data 是集合的记录数据，数组内一项为一条数据
+// 以部分数据、部分字段为例
+{	
+	"coupon": { // 优惠券表
+		"data": [
+			{
+				"appid":"wxece3a9a4c82f58c9",
+				"image":"../../static/images/ele.png",
+				"url":"ele-recommend-price/pages/guest/index?inviterId=1567498&chInfo=ch_wechat_chsub_CopyLink&_ltracker_f=ch_wechat__chsub_gongzhonghao"
+			}
+		]
+	},
+	"faceimg":{	//头像框表
+		"data": [
+			"../../static/images/face/head-1.png",
+			"../../static/images/face/20190829-head2.png",
+			"../../static/images/face/head-2.png",
+			"../../static/images/face/head3.png"
+		]
+	}
+}
