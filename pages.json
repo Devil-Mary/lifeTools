@@ -1,0 +1,80 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "红包专享"
+			}
+		}
+	    ,{
+            "path" : "pages/whatToEat/whatToEat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "吃什么？",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenter/userCenter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/changeFace/changeFace",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我要换新颜",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#000000"
+            }
+            
+        }
+        ,{
+            "path" : "pages/goodMorning/goodMorning",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "每日心语",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/godreply/godreply",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "神回复",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gameList/gameList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "无聊来玩",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/moreFuli/moreFuli",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "更多福利",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "红包专享",
+		"navigationBarBackgroundColor": "#F54C45",
+		"backgroundColor": "#F54C45"
+	}
+}
